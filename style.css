@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Chivo+Mono:ital,wght@1,200&family=Oswald:wght@300&family=Roboto:wght@500&family=Rubik+Gemstones&display=swap');
+
+
+body{
+    text-align: center;
+    margin: 0px;
+}
+
+.menu{
+    background-color: rgb(114, 112, 114);
+    position: fixed; 
+    width: 100%;
+    top: 0;
+    margin-top: 0px;
+    z-index: 1;
+}
+.links{
+    display: inline;
+    font-size: 30px;
+    margin-left:60px;
+    
+}
+.nav{
+    text-decoration: none;
+    color: wheat;
+}
+
+/* pseudo class - selector:pseudo-class{property:value;} */
+.nav:hover{
+    font-size: 35px;
+    color: lightcoral;
+}
+html{
+    scroll-behavior:smooth;
+}
+#profile{
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#title{
+    font-family: 'Caramel', cursive;
+    font-size: 80px;
+    margin-top: 0px;
+}
+#sub-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+#home{
+    background-image: linear-gradient(to bottom right,black,gold,brown);
+    width: 100%;
+}
